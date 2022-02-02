@@ -1,0 +1,16 @@
+name: Sir_plavlenniy
+version: '${project.version}'
+main: maksinus.sir_plavlenniy.Sir_plavlenniy
+softdepend: [Vault, ProtocolLib]
+depend: [Vault, ProtocolLib]
+api-version: 1.17
+commands:
+  guide:
+    description: Guide
+    usage: /guide
+  ecc:
+    description: Economy
+    usage: /ecc <method> <player> <count>
+  is:
+    description: Island
+    usage: /is <method>
